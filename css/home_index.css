@@ -119,10 +119,6 @@ div.main_nav {
 
 /* Code Reference: http://jsfiddle.net/avrahamcool/LDnfQ/ */
 
-.first {
-    position: absolute;
-}
-
 .intro-row {
     display: table;
     width: 100%;
@@ -132,4 +128,10 @@ div.main_nav {
 
 .intro-col {
     display: table-cell;
+}
+
+.topic {
+    color: #96fa00;
+    font-weight: bolder;
+    font-size: 1.32em;
 }
