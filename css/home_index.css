@@ -215,3 +215,16 @@ section#contact {
     padding: 0 10px 0 0;
     float: right;
 }
+
+
+/* FOOTER */
+
+
+/* Code Reference:  https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_footer_css*/
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #525252;
+    color: white;
+}
