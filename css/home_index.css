@@ -14,7 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 1;
     text-align: center;
     display: flex;
     align-items: center;
@@ -115,6 +115,12 @@ div.main_nav {
 
 
 /* Intro paragraphs */
+
+section.intro-element {
+    padding: 2% 0% 4% 2%;
+    border-bottom: 2px solid #C4C4C4;
+    margin: 2% 0% 5% 0%;
+}
 
 
 /* Code Reference: http://jsfiddle.net/avrahamcool/LDnfQ/ */
