@@ -1,3 +1,8 @@
+.homesection {
+    margin-top: 10%;
+}
+
+
 /* Hero Code Reference:  https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .box1 {
@@ -116,6 +121,12 @@ div.main_nav {
 
 /* Intro paragraphs */
 
+section#intro {
+    width: 86%;
+    margin: auto;
+    padding: 10px;
+}
+
 section.intro-element {
     padding: 2% 0% 4% 2%;
     border-bottom: 2px solid #C4C4C4;
@@ -140,4 +151,32 @@ section.intro-element {
     color: #96fa00;
     font-weight: bolder;
     font-size: 1.32em;
+}
+
+
+/* The latest news section */
+
+section#news {
+    width: 86%;
+    margin: auto;
+    padding: 10px;
+}
+
+h4.subheading {
+    color: #ed442e;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin: 0%;
+}
+
+
+/* Contact us section */
+
+section#contact {
+    width: 86%;
+    margin: auto;
+    padding: 10px;
 }
