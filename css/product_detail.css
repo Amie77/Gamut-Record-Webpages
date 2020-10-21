@@ -70,7 +70,7 @@ div.single_product_container{
 }
 
 div.button-padding{
-	padding-top:4rem;
+	padding-top:3rem;
 	
 }
 
@@ -104,6 +104,24 @@ figure.detail_alb_img{
 
 }
 
+figure.detail_alb_img1{
+
+	display:flex;
+	padding-left: 5rem;
+	align-content: center;
+	align-items: center;
+	
+
+}
+
+
+figure.detail_alb_img1{
+
+	display:flex;
+	width:30%;
+
+}
+
 
 div.product_text{
 
@@ -113,6 +131,7 @@ div.product_text{
 div.button-align{
 	display:flex;
 }
+
 
 .padding1rem{
 	padding:1rem;
@@ -127,9 +146,19 @@ div.button-align{
     margin:4%, 4%;
 }
 
+.product-listing2{
+  display:flex;
+  grid-column: span 2;
+}
+
 label.product_info{
 	display:flex;
     width:30%;
+}
+
+img.detail_resize{
+	display:flex;
+	width:75%;
 }
 
 
