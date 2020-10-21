@@ -1,7 +1,3 @@
-section{
-    margin-bottom: 30px;
-}
-
 /* Hero Code Reference:  https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
 .box1 {
@@ -11,14 +7,18 @@ section{
 
 .hero {
     /* Image created by myself */
+    position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/Records.jpg");
-    height: 70%;
+    height: 60vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    opacity: 1;
+    opacity: 0.5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .herohead {
@@ -42,16 +42,17 @@ section{
     margin-top: 5vh;
 }
 
-/* Navbar modify */
-div.main_nav{
-    position: absolute;
-    padding:0% 2%;
-    margin: 10% 0% 3% 0%;
 
+/* Navbar modify */
+
+div.main_nav {
+    position: absolute;
+    padding: 0% 2%;
+    margin: 10% 0% 3% 0%;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color:rgb(50,50,50);
+    background-color: rgb(50, 50, 50);
 }
 
 @media screen and (min-width: 1440px) {
@@ -72,9 +73,9 @@ div.main_nav{
         margin-top: 7vh;
     }
     .herohead h1 {
-        font-size: 7vh;
-        transform: translate(0%, 210%);
-        margin-top: 0vh;
+        font-size: 5vh;
+        /* transform: translate(0%, 210%);
+        margin-top: 0vh; */
     }
 }
 
@@ -91,9 +92,8 @@ div.main_nav{
     .herohead p {
         opacity: 0;
     }
-
-    div.main_nav{
-        margin: 50% 0% 3% 0%;
+    div.main_nav {
+        margin-top: 60vh;
     }
 }
 
@@ -108,32 +108,28 @@ div.main_nav{
         transform: translate(1%, 0%);
         margin-top: 25vh;
     }
-
-    div.main_nav{
-        margin-top: 15%;
+    div.main_nav {
+        margin-top: 60vh;
     }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1024px) {
-div.main_nav{
-    margin-top: 17%;
-}
+
+/* Intro paragraphs */
+
+
+/* Code Reference: http://jsfiddle.net/avrahamcool/LDnfQ/ */
+
+.first {
+    position: absolute;
 }
 
-@media screen and (min-width: 450px) and (max-width: 750px) {
-    div.main_nav{
-        margin-top: 55%;
-    }
+.intro-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 375px) {
-    div.main_nav{
-        margin-top: 95%;
-    }
-}
-
-@media screen and (min-width: 375px) and (max-width: 425px) {
-    div.main_nav{
-        margin-top: 75%;
-    }
+.intro-col {
+    display: table-cell;
 }
