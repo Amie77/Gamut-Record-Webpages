@@ -1,0 +1,140 @@
+
+
+.product_detail_title{
+	text-align: center;
+	font-size:300%;
+
+}
+
+.brand-subtitle{
+	text-align: center;
+}
+
+.subHeading{
+	color:#96fa00;
+    font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 150%;
+}
+
+section.border_element{
+  padding-top: 2rem;
+
+  border-bottom-width: 0.2rem;
+  border-bottom-style: solid;
+  border-bottom-color: white
+}
+
+div.pContainer{
+    padding:0% 2%;
+    margin: 3% 0% 3% 0%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+div.single_product_container{
+
+    width:30em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 800px){
+  .pContainer{
+  	display:flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	align-items: center;
+  	width:100%;
+ 
+  }
+
+  .single_product_container{
+
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	flex-direction:row;
+  	align-items: center;
+  	width:100%;
+
+  }
+
+}
+
+div.button-padding{
+	padding-top:4rem;
+	
+}
+
+.button-nav {
+    display: flex;
+    padding: 2% 4%;
+    color: white;
+    background-color: #393734;
+    border: 2px solid #96fa00;
+    text-decoration: none;
+
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+    font-weight:800;
+    border-radius: 4px;
+  }
+
+.button-nav:hover {
+    background-color: #96fa00;
+    color: #393734;
+    font-weight:800;
+    border-radius: 4px;
+
+}
+
+
+figure.detail_alb_img{
+
+	display:flex;
+	width:45%;
+
+}
+
+
+div.product_text{
+
+	width:100%;
+}
+
+div.button-align{
+	display:flex;
+}
+
+.padding1rem{
+	padding:1rem;
+}
+
+.product_choice{
+	width:40%;
+}
+
+.product_quantity{
+
+    margin:4%, 4%;
+}
+
+label.product_info{
+	display:flex;
+    width:30%;
+}
+
+
+
+
+
+
+
