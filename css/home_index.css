@@ -137,6 +137,11 @@ section#title-text {
     text-align: center;
 }
 
+p.firm_name {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
 
 /* Intro paragraphs */
 
