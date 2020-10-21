@@ -111,7 +111,7 @@ div.main_nav {
     .herohead p {
         font-size: 1.5rem;
         transform: translate(1%, 0%);
-        margin-top: 25vh;
+        margin-top: 14vh;
     }
     div.main_nav {
         margin-top: 60vh;
@@ -179,4 +179,20 @@ section#contact {
     width: 86%;
     margin: auto;
     padding: 10px;
+}
+
+
+/* Code Reference: https://wpsites.net/free-tutorials/uneven-columns-using-html-css/ */
+
+.first-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.right-column {
+    background-color: #848383;
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: right;
 }
