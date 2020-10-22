@@ -78,3 +78,11 @@ div.order_summary{
     position: unset;
   	top: 0;
 }
+
+@media only screen and (max-width:510px) {
+    .fill_info{
+        width: 100%;
+        min-width: 0em;
+    }
+    
+}
