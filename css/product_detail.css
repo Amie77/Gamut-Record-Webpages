@@ -228,8 +228,17 @@ table{
 
 	text-align:left;
 	border-bottom: 1px solid #ed442e;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
 
 
+}
+
+th.songlist-subheading{
+
+	font-size: 20px;
+	color:white;
+    
 }
 
 #t02{

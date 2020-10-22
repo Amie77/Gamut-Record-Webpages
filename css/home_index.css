@@ -267,8 +267,6 @@ section#contact {
 /* Code Reference:  https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_footer_css*/
 
 footer {
+    padding:1rem;
     text-align: center;
-    padding: 3px;
-    background-color: #525252;
-    color: white;
 }
