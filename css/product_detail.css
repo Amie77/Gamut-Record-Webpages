@@ -48,7 +48,7 @@ div.pContainer{
 
 div.single_product_container{
 
-    width:30em;
+    width:35em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -59,7 +59,7 @@ div.single_product_container{
 
 div.single_product_container1{
 
-    width:30em;
+    width:35rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -78,7 +78,7 @@ div.songList-Container0{
 div.songList-Container{
 
 	display:flex;
-	width:100%;
+	width:92%;
 
 
 }
@@ -209,14 +209,13 @@ img.detail_resize{
 img.song_resize{
 	
 	display:flex;
-
 	width:100%;
 }
 
- table{
+table{
 
 	border-collapse: collapse;
-	width:105%;
+	width:100%;
 }
 
  td,th{
@@ -230,7 +229,9 @@ img.song_resize{
 #t02{
 
 	border-collapse: collapse;
-	width:100%;
+
+
+	
 
 }
 
@@ -283,11 +284,11 @@ form{
 }
 
 .stars{
-
-	width:30%;
+	width: 30%;
 	display:flex;
 	flex-direction:row-reverse;
-	justify-content: space-around;
+	justify-content: center;
+
 
 
 }
