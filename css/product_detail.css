@@ -1,5 +1,10 @@
 
  /* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');*/
+*{
+ 
+ box-sizing: border-box;
+  
+}
 
 .product_detail_title{
 	text-align: center;
@@ -29,7 +34,6 @@
 
 section.border_element{
   padding-top: 2rem;
-
   border-bottom-width: 0.2rem;
   border-bottom-style: solid;
   border-bottom-color: white
@@ -49,7 +53,6 @@ div.pContainer{
 div.single_product_container{
 
 	padding-top: 1rem;
-
     width:35em;
     display: flex;
     flex-wrap: wrap;
@@ -92,26 +95,37 @@ div.customer_container{
 
 @media screen and (max-width: 800px){
   .pContainer{
-  	display:flex;
-  	justify-content: center;
+  
   	flex-direction: column;
-  	align-items: center;
-  	width:100%;
+  	
+
  
   }
 
   .single_product_container{
 
-  	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
+  
   	flex-direction:row;
-  	align-items: center;
-  	width:100%;
-
-
   }
 
+
+}
+
+@media (min-width: 40rem){
+
+	.pContainer{
+  
+  	flex-direction: row;
+  	
+
+ 
+  }
+
+  .single_product_container{
+
+  
+  	flex-direction:row;
+  }
 
 }
 
@@ -211,6 +225,7 @@ table{
 
 	border-collapse: collapse;
 	width:100%;
+
 }
 
  td,th{
@@ -223,10 +238,7 @@ table{
 
 #t02{
 
-	border-collapse: collapse;
-
-
-	
+	border-collapse: collapse;	
 
 }
 
