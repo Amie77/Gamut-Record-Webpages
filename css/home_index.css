@@ -178,6 +178,18 @@ section.intro-element {
     font-size: 1.32em;
 }
 
+@media screen and (max-width: 750px) {
+    .intro-row {
+        display: unset;
+        width: 100%;
+        border-spacing: 10px;
+        padding-bottom: 5%;
+    }
+    .intro-col {
+        display: unset;
+    }
+}
+
 
 /* The latest news section */
 
@@ -195,6 +207,14 @@ h4.subheading {
     padding-top: 2%;
     padding-left: 2%;
     margin: 0%;
+}
+
+.news-row {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    padding-bottom: 5%;
 }
 
 
