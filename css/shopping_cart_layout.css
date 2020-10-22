@@ -34,7 +34,7 @@ div.order_summary{
 .cart_item{
     width: 60%;
     min-width: 30em;
-    border: 1px solid paleturquoise;
+    /* border: 1px solid paleturquoise; */
     flex-grow: 1;
     margin: 0% 2%;
 }
@@ -42,7 +42,7 @@ div.order_summary{
 .order_summary{
     width: 30%;
     min-width: 10em;
-    border: 1px solid paleturquoise;
+    /* border: 1px solid paleturquoise; */
     flex-grow: 1;
     margin: 0% 2%;
 }
