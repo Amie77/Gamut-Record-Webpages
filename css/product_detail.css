@@ -21,6 +21,7 @@
     font-family: 'Poppins', sans-serif;
 	text-align: center;
 	font-size: 150%;
+	padding-top: 2rem;
 }
 
 .subsecHeading{
@@ -33,10 +34,11 @@
 }
 
 section.border_element{
-  padding-top: 2rem;
-  border-bottom-width: 0.2rem;
-  border-bottom-style: solid;
-  border-bottom-color: white
+   
+    border-bottom: 2px solid #c4c4c4;
+    width:100%;
+    margin-bottom: 1em;
+
 }
 
 div.pContainer{
