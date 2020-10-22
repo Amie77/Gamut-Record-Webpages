@@ -144,27 +144,18 @@ div.button-padding{
 figure.detail_alb_img{
 
 	display:flex;
-	width:45%;
-
-}
-
-figure.detail_alb_img1{
-
-	display:flex;
-	padding-left: 5rem;
-	align-content: center;
-	align-items: center;
+	position:relative;
 	
 
 }
 
-
 figure.detail_alb_img1{
 
-	display:flex;
-	width:30%;
+	display:flex;	
+	
 
 }
+
 
 
 div.product_text{
@@ -202,8 +193,10 @@ label.product_info{
 
 img.detail_resize{
 	display:flex;
+	padding-top:3rem;
+	position:relative;
 	width:100%;
-	padding-left: 5rem;
+	
 }
 
 img.song_resize{
