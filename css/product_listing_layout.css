@@ -1,3 +1,12 @@
+.product_detail_title{
+    text-align: center;
+    font-size: 300%;
+}
+
+.brand-subtitle{
+    text-align: center;
+}
+
 h3.element_heading{
     padding-bottom: 1em;
     border-bottom: 2px solid #c4c4c4;
@@ -34,4 +43,14 @@ div.category{
 .product_list_main{
     width: 80%;
     /* border: 1px solid yellow; */
+}
+
+.single_product{
+    min-width:18em;
+}
+
+@media only screen and (max-width:510px) {
+    .product_list_category{
+        display: none;
+    }
 }
