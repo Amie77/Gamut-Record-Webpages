@@ -3,3 +3,8 @@ section.element{
     border-bottom: 0px solid #60b76d;
     margin: 2% 0% 0% 0%;
 }
+
+div.order_summary{
+    position: sticky;
+  	top: 0;
+}
