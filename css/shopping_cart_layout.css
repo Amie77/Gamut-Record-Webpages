@@ -47,6 +47,11 @@ div.order_summary{
     margin: 0% 2%;
 }
 
+footer{
+	padding:1rem;
+	text-align: center;
+}
+
 @media only screen and (max-width:550px) {
     .order_summary{
         margin: 0%;
