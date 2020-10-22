@@ -87,12 +87,11 @@ div.songList-Container{
 	display:flex;
 	width:92%;
 
-
 }
 
 div.customer_container{
 	display:flex;
-	width:100%
+	width:100%;
 }
 
 @media screen and (max-width: 800px){
@@ -112,7 +111,7 @@ div.customer_container{
 
 }
 
-@media (min-width: 20%){
+@media (min-width: 40rem){
 
 div.pContainer{
   
@@ -192,7 +191,7 @@ div.button-align{
 
 .product_quantity{
 
-    margin:4%, 4%;
+  margin:4% 4%;
 }
 
 .product-listing2{
