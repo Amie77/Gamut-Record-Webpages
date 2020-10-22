@@ -217,6 +217,33 @@ h4.subheading {
     padding-bottom: 5%;
 }
 
+.first-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.second-column {
+    background-color: #848383;
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+@media screen and (max-width: 750px) {
+    .first-column {
+        width: 100%;
+        padding: 0 10px 0 0;
+        float: left;
+    }
+    .second-column {
+        background-color: #848383;
+        width: 100%;
+        padding: 0 10px 0 0;
+        float: right;
+    }
+}
+
 
 /* Contact us section */
 
@@ -228,19 +255,6 @@ section#contact {
 
 
 /* Code Reference: https://wpsites.net/free-tutorials/uneven-columns-using-html-css/ */
-
-.first-column {
-    width: 33%;
-    padding: 0 10px 0 0;
-    float: left;
-}
-
-.right-column {
-    background-color: #848383;
-    width: 66%;
-    padding: 0 10px 0 0;
-    float: right;
-}
 
 #contact_list {
     padding-bottom: 5%;
