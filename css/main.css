@@ -77,6 +77,16 @@ a.bandTitle:hover{
     color:#96fa00;
 }
 
+.product_detail_title{
+    text-align: center;
+    font-size:300%;
+
+}
+
+.brand-subtitle{
+    text-align: center;
+}
+
 /* Styling for the intext link */
 a.intext_link{
     font-weight: bold;
