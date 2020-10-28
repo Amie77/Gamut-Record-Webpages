@@ -170,6 +170,11 @@ section.intro-element {
 
 .intro-col {
     display: table-cell;
+    text-align: center;
+}
+
+.intro-icon {
+    width: 30%;
 }
 
 .topic {
@@ -267,6 +272,6 @@ section#contact {
 /* Code Reference:  https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_footer_css*/
 
 footer {
-    padding:1rem;
+    padding: 1rem;
     text-align: center;
 }
