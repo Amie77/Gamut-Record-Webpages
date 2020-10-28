@@ -1,198 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>P02 - Product Listing</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all"/>
-        <link rel="stylesheet" href="css/product_listing_layout.css" title="sytle" type="text/css" media="all"/>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0s">
+<head>
+    <title>P02 - Product Listing</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/product_listing_layout.css" title="sytle" type="text/css" media="all" />
 
-        <!-- add new google font -->
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0s">
 
-    <body>
-        <header> <!-- begin of Header nav -->
-             <a class = "bandTitle" href = "index.html"> <h1 class="product_detail_title">GAMUT RECORD</h1></a>
-            <h5 class="brand-subtitle">Find Awesome Things Here.</h5>
+    <!-- add new google font -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
 
-            <div class="main_nav">
-                <nav>
-                    <ul>
-                        <li class ="menu"><a href= "index.html" >HOME</a ></li>
-                        <li class ="menu"><a href= "product_listing.html" >MUSIC COLLECTION</a ></li>
-                        <li class ="menu"><a href= "product_detail.html" >NEW RELEASE</a ></li>
-                        <li class ="menu"><a href= "shopping_cart.html" >SHOPPING CART</a ></li>
-                    </ul>
-                </nav>
+<body>
+    <header>
+        <!-- begin of Header nav -->
+        <a class="bandTitle" href="index.html">
+            <h1 class="product_detail_title">GAMUT RECORD</h1>
+        </a>
+        <h5 class="brand-subtitle">Find Awesome Things Here.</h5>
+
+        <div class="main_nav">
+            <nav>
+                <ul>
+                    <li class="menu"><a href="index.html">HOME</a></li>
+                    <li class="menu"><a href="product_listing.html">MUSIC COLLECTION</a></li>
+                    <li class="menu"><a href="product_detail.html">NEW RELEASE</a></li>
+                    <li class="menu"><a href="shopping_cart.html">SHOPPING CART</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!-- end of Header nav -->
+
+    <!-- start of Product Listing section -->
+    <section class="main_section">
+        <h3 class="element_heading">RECORD / NEW RELEASE</h3>
+
+        <div class="product_list_category">
+            <h4 class="element_heading">Shop by category</h4>
+
+            <div class="category">
+                <p><a class="intext_link" href="#">Rock</a></p>
+                <p><a class="intext_link" href="#">Jazz</a></p>
+                <p><a class="intext_link" href="#">Blues</a></p>
+                <p><a class="intext_link" href="#">Classical</a></p>
+                <p><a class="intext_link" href="#">Pop</a></p>
+                <p><a class="intext_link" href="#">K-pop</a></p>
+                <p><a class="intext_link" href="#">Electronic</a></p>
+                <p><a class="intext_link" href="#">Country</a></p>
             </div>
+        </div>
 
-        </header> <!-- end of Header nav -->
+        <div class="product_list_main">
 
-        <!-- start of Product Listing section -->
-        <section class="main_section">
-            <h3 class="element_heading">RECORD / NEW RELEASE</h3>
+            <div class="pList">
+                <div class="single_product">
+                    <div class="listing_info">
+                        <figure class="product_img">
+                            <a class="imageLink" href="product_detail.html">
+                                <img class="product_record" src="img/record2.jpg" alt="record_image" />
+                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                            </a>
+                        </figure>
 
-            <div class="product_list_category">
-                <h4 class="element_heading">Shop by category</h4>
-
-                <div class="category">
-                    <p><a class="intext_link" href="#">Rock</a></p>
-                    <p><a class="intext_link" href="#">Jazz</a></p>
-                    <p><a class="intext_link" href="#">Blues</a></p>
-                    <p><a class="intext_link" href="#">Classical</a></p>
-                    <p><a class="intext_link" href="#">Pop</a></p>
-                    <p><a class="intext_link" href="#">K-pop</a></p>
-                    <p><a class="intext_link" href="#">Electronic</a></p>
-                    <p><a class="intext_link" href="#">Country</a></p>
-                </div>
-            </div>
-
-            <div class="product_list_main">
-
-                <div class="pList">
-                    <div class="single_product">
-                        <div class="listing_info">
-                            <figure class="product_img">
-                                <a class="imageLink" href="product_detail.html">
-                                    <img class="product_record" src = "img/record2.jpg" alt = "record_image"/>
-                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                                </a>
-                            </figure>
-
-                            <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death And All His Friends - 2008</a></h2>
-                            <p class="product_info">Coldplay</p>
-                            <h3 class="product_price">$ 36.00</h3>
-                        </div>
-
-                        <div class="listing_add">
-                            <a class="button-nav" href="">Add to cart</a>
-                            <p class="product_info_stock">In stock</p>
-                        </div>
-                        
+                        <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death
+                                And All His Friends - 2008</a></h2>
+                        <p class="product_info">Coldplay</p>
+                        <h3 class="product_price">$ 36.00</h3>
                     </div>
 
-                    <div class="single_product">
-                        <div class="listing_info">
-                            <figure class="product_img">
-                                <a class="imageLink" href="product_detail.html">
-                                    <img class="product_record" src = "img/record2.jpg" alt = "record_image"/>
-                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                                </a>
-                            </figure>
-
-                            <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death And All His Friends - 2008</a></h2>
-                            <p class="product_info">Coldplay</p>
-                            <h3 class="product_price">$ 36.00</h3>
-                        </div>
-
-                        <div class="listing_add">
-                            <a class="button-nav" href="">Add to cart</a>
-                            <p class="product_info_out">Out of stock</p>
-                        </div>
-                        
+                    <div class="listing_add">
+                        <a class="button-nav" href="">Add to cart</a>
+                        <p class="product_info_stock">In stock</p>
                     </div>
 
-                    <div class="single_product">
-                        <div class="listing_info">
-                            <figure class="product_img">
-                                <a class="imageLink" href="product_detail.html">
-                                    <img class="product_record" src = "img/record2.jpg" alt = "record_image"/>
-                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                                </a>
-                            </figure>
-
-                            <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death And All His Friends - 2008</a></h2>
-                            <p class="product_info">Coldplay</p>
-                            <h3 class="product_price">$ 36.00</h3>
-                        </div>
-
-                        <div class="listing_add">
-                            <a class="button-nav" href="">Add to cart</a>
-                            <p class="product_info_stock">In stock</p>
-                        </div>
-                        
-                    </div>
-                    
                 </div>
 
-                <div class="pList">
-                    <div class="single_product">
-                        <div class="listing_info">
-                            <figure class="product_img">
-                                <a class="imageLink" href="product_detail.html">
-                                    <img class="product_record" src = "img/record2.jpg" alt = "record_image"/>
-                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                                </a>
-                            </figure>
+                <div class="single_product">
+                    <div class="listing_info">
+                        <figure class="product_img">
+                            <a class="imageLink" href="product_detail.html">
+                                <img class="product_record" src="img/record2.jpg" alt="record_image" />
+                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                            </a>
+                        </figure>
 
-                            <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death And All His Friends - 2008</a></h2>
-                            <p class="product_info">Coldplay</p>
-                            <h3 class="product_price">$ 36.00</h3>
-                        </div>
-
-                        <div class="listing_add">
-                            <a class="button-nav" href="">Add to cart</a>
-                            <p class="product_info_stock">In stock</p>
-                        </div>
-                        
+                        <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death
+                                And All His Friends - 2008</a></h2>
+                        <p class="product_info">Coldplay</p>
+                        <h3 class="product_price">$ 36.00</h3>
                     </div>
 
-                    <div class="single_product">
-                        <div class="listing_info">
-                            <figure class="product_img">
-                                <a class="imageLink" href="product_detail.html">
-                                    <img class="product_record" src = "img/record2.jpg" alt = "record_image"/>
-                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                                </a>
-                            </figure>
-
-                            <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death And All His Friends - 2008</a></h2>
-                            <p class="product_info">Coldplay</p>
-                            <h3 class="product_price">$ 36.00</h3>
-                        </div>
-
-                        <div class="listing_add">
-                            <a class="button-nav" href="">Add to cart</a>
-                            <p class="product_info_out">Out of stock</p>
-                        </div>
-                        
+                    <div class="listing_add">
+                        <a class="button-nav" href="">Add to cart</a>
+                        <p class="product_info_out">Out of stock</p>
                     </div>
 
-                    <div class="single_product">
-                        <div class="listing_info">
-                            <figure class="product_img">
-                                <a class="imageLink" href="product_detail.html">
-                                    <img class="product_record" src = "img/record2.jpg" alt = "record_image"/>
-                                    <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                                </a>
-                            </figure>
-
-                            <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death And All His Friends - 2008</a></h2>
-                            <p class="product_info">Coldplay</p>
-                            <h3 class="product_price">$ 36.00</h3>
-                        </div>
-
-                        <div class="listing_add">
-                            <a class="button-nav" href="">Add to cart</a>
-                            <p class="product_info_stock">In stock</p>
-                        </div>
-                        
-                    </div>
-                    
                 </div>
-            </div>
-        </section>
-        <!-- end of Product/Service Listing section -->
 
-        <!-- start of footer -->
-        <footer>
-            <h4> @ Gamut Record.</h4>
-            <p> All COPYRIGHT RESERVED. </p>
-        </footer>
-        <!-- end of footer -->
-        
-    </body>
+                <div class="single_product">
+                    <div class="listing_info">
+                        <figure class="product_img">
+                            <a class="imageLink" href="product_detail.html">
+                                <img class="product_record" src="img/record2.jpg" alt="record_image" />
+                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                            </a>
+                        </figure>
+
+                        <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death
+                                And All His Friends - 2008</a></h2>
+                        <p class="product_info">Coldplay</p>
+                        <h3 class="product_price">$ 36.00</h3>
+                    </div>
+
+                    <div class="listing_add">
+                        <a class="button-nav" href="">Add to cart</a>
+                        <p class="product_info_stock">In stock</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="pList">
+                <div class="single_product">
+                    <div class="listing_info">
+                        <figure class="product_img">
+                            <a class="imageLink" href="product_detail.html">
+                                <img class="product_record" src="img/cradle.jpeg" alt="record_image" />
+                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                            </a>
+                        </figure>
+
+                        <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Cradle Song -
+                                2020</a></h2>
+                        <p class="product_info">Mandarin</p>
+                        <h3 class="product_price">$ 36.00</h3>
+                    </div>
+
+                    <div class="listing_add">
+                        <a class="button-nav" href="">Add to cart</a>
+                        <p class="product_info_stock">In stock</p>
+                    </div>
+
+                </div>
+
+                <div class="single_product">
+                    <div class="listing_info">
+                        <figure class="product_img">
+                            <a class="imageLink" href="product_detail.html">
+                                <img class="product_record" src=" https://www.koreanindie.com/wp-content/uploads/2015/09/hyukoh-20.jpg.webp " alt=" Twenty by HYUKOH">
+                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                            </a>
+                        </figure>
+
+                        <h2 class="list_heading"><a class="intext_link" href="product_detail.html">20 - 2014</a></h2>
+                        <p class="product_info">Hyukoh</p>
+                        <h3 class="product_price">$ 27.99</h3>
+                    </div>
+
+                    <div class="listing_add">
+                        <a class="button-nav" href="">Add to cart</a>
+                        <p class="product_info_out">Out of stock</p>
+                    </div>
+
+                </div>
+
+                <div class="single_product">
+                    <div class="listing_info">
+                        <figure class="product_img">
+                            <a class="imageLink" href="product_detail.html">
+                                <img class="product_record" src="img/record2.jpg" alt="record_image" />
+                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                            </a>
+                        </figure>
+
+                        <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Viva La Vida Or Death
+                                And All His Friends - 2008</a></h2>
+                        <p class="product_info">Coldplay</p>
+                        <h3 class="product_price">$ 36.00</h3>
+                    </div>
+
+                    <div class="listing_add">
+                        <a class="button-nav" href="">Add to cart</a>
+                        <p class="product_info_stock">In stock</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of Product/Service Listing section -->
+
+    <!-- start of footer -->
+    <footer>
+        <h4> @ Gamut Record.</h4>
+        <p> All COPYRIGHT RESERVED. </p>
+    </footer>
+    <!-- end of footer -->
+
+</body>
+
 </html>
