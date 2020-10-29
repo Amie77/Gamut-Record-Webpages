@@ -25,6 +25,16 @@ section.element{
     margin: 0% 2%;
 }
 
+label{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+input[type=text]{ 
+    width: 50%;
+}
+
 .order_summary{
     width: 100%;
     margin: 0%;
