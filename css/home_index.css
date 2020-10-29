@@ -55,6 +55,10 @@ h3.home_title {
     margin-top: 5vh;
 }
 
+div.title_padding{
+    padding-top: 2rem;
+}
+
 
 /* Navbar modify */
 
@@ -137,9 +141,12 @@ section#title-text {
     text-align: center;
 }
 
-p.firm_name {
+h1.firm_name {
     font-weight: bolder;
+
     font-size: 3em;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 
