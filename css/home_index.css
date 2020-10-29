@@ -88,6 +88,13 @@ p.icon_para{
     font-weight:100;
 }
 
+.icon_para_normal{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.1rem;
+    font-weight:100;
+}
+
 
 
 .icon_para_green{
