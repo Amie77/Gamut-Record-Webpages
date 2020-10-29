@@ -61,6 +61,16 @@ div.title_padding{
 
 .icon_para{
     text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+
+.sub_para{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size:1.1rem;
+    font-weight:600;
+
 }
 
 
