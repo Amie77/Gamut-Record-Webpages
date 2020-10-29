@@ -168,31 +168,43 @@ section.intro-element {
 /* Code Reference: http://jsfiddle.net/avrahamcool/LDnfQ/ */
 
 .intro-row {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-spacing: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding-bottom: 5%;
+
+    /* border: 1px solid wheat; */
 }
 
 .intro-col {
-    display: table-cell;
+    /* border: 1px solid yellow; */
+
+    width: 28%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 15em;
 }
 
-.intro-icon {
-
+.intro_img {
     width: 40%;
-
+    /* border: 1px solid blue; */
 }
 
-.topic {
+.intro-icon{
+    width: 100%;
+}
+
+/* .topic {
     color: #96fa00;
     font-weight: bolder;
     font-size: 1.32em;
-}
+} */
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
     .intro-row {
         display: unset;
         width: 100%;
@@ -203,7 +215,7 @@ section.intro-element {
         display: unset;
         text-align: center;
     }
-}
+} */
 
 
 /* The latest news section */
