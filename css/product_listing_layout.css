@@ -48,6 +48,10 @@ div.category{
 
 }
 
+div.button_padding{
+    padding-top: 0.5rem;
+}
+
 .single_product{
     min-width:18em;
 }
