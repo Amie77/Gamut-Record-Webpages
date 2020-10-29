@@ -35,6 +35,11 @@ input[type=text]{
     width: 50%;
 }
 
+.icon-container {
+    margin-bottom: 2%;
+    font-size: 30px;
+  }
+
 .order_summary{
     width: 100%;
     margin: 0%;

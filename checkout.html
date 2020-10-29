@@ -12,6 +12,8 @@
         <!-- add new google font -->
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -97,8 +99,23 @@
                         <form>
                             <div class="payment">
                             <label>Card type:</label>
-                            <label><input type="radio" id="visa" name="cardtype" value="visa"> Visa</label>
-                            <label><input type="radio" id="mastercard" name="cardtype" value="mastercard"> Mastercard</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:#96fa00;"></i>
+                                <i class="fa fa-cc-amex" style="color:#60b76d;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:#ed442e;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                              </div>
+                            <label><input type="radio" id="visa" name="cardtype" value="visa"> 
+                                Visa 
+                            <label><input type="radio" id="mastercard" name="cardtype" value="amex"> 
+                                Amex 
+                            </label>
+                            <label><input type="radio" id="mastercard" name="cardtype" value="mastercard"> 
+                                Mastercard 
+                            </label>
+                            <label><input type="radio" id="mastercard" name="cardtype" value="discover"> 
+                                Discover
+                            </label>
                             </div>
                             <div class="payment">
                             <label>
