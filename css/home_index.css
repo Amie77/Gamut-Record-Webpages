@@ -192,6 +192,7 @@ section.intro-element {
     }
     .intro-col {
         display: unset;
+        text-align: center;
     }
 }
 
@@ -229,10 +230,14 @@ h4.subheading {
 }
 
 .second-column {
-    background-color: #848383;
+    /* background-color: #848383; */
     width: 66%;
     padding: 0 10px 0 0;
     float: right;
+}
+
+.news-img {
+    width: 100%;
 }
 
 @media screen and (max-width: 750px) {
@@ -242,7 +247,7 @@ h4.subheading {
         float: left;
     }
     .second-column {
-        background-color: #848383;
+        /* background-color: #848383; */
         width: 100%;
         padding: 0 10px 0 0;
         float: right;
