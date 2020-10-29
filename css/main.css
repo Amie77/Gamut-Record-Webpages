@@ -40,6 +40,10 @@ h2.section_heading{
     padding-left: 3%;
 }
 
+.login>p>a{
+    text-decoration: none;
+}
+
 .fa{
     color: #96fa00;
 }
