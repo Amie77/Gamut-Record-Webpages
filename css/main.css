@@ -29,6 +29,21 @@ h2.section_heading{
     font-size: 30px;
 }
 
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+
+.login>p{
+    margin-right: 1%;
+    padding-left: 3%;
+}
+
+.fa{
+    color: #96fa00;
+}
+
 section.main_section{
     margin:10% 2% 0% 2%;
 }
