@@ -31,6 +31,10 @@ label{
     flex-wrap: wrap;
 }
 
+label.font_setting{
+    font-family: 'Times New Roman';
+}
+
 input[type=text]{ 
     width: 50%;
 }
