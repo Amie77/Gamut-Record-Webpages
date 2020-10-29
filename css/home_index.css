@@ -116,7 +116,7 @@ p.icon_para{
     text-align: center;
     font-family: 'Times New Roman';
     font-size:1.1rem;
-    font-weight:600;
+    font-weight:100;
 
 }
 
@@ -207,7 +207,7 @@ h1.firm_name {
 
     font-size: 3em;
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 
