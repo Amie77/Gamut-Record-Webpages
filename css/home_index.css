@@ -18,6 +18,14 @@ h3.element_heading{
     margin:0%;
 }
 
+h3.contact_heading{
+    color:#96fa00;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding-left:0%;
+    margin:0%;
+}
+
 
 /* Hero Code Reference:  https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 
@@ -73,12 +81,26 @@ p.icon_para{
     font-weight:600;
 }
 
+.icon_para_regular{
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size:1.1rem;
+    font-weight:100;
+}
+
 
 
 .icon_para_green{
     text-align: left;
     font-family: 'Poppins', sans-serif;
     color:#96fa00;
+    font-weight:600;
+}
+
+.icon_para_red{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color:#ed442e;
     font-weight:600;
 }
 
@@ -268,6 +290,15 @@ h4.subheading {
     margin: 0%;
 }
 
+h4.subheading_normal {
+    color: #ed442e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-top: 2%;
+    padding-left: 0%;
+    margin: 0%;
+}
+
 .news-row {
     display: table;
     width: 100%;
@@ -313,7 +344,7 @@ h4.subheading {
 section#contact {
     width: 86%;
     margin: auto;
-    padding: 10px;
+    padding: 1rem;
 }
 
 
