@@ -1,95 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>P02 - Checkout</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all"/>
-        <link rel="stylesheet" href="css/shopping_cart_layout.css" title="sytle" type="text/css" media="all"/>
-        <link rel="stylesheet" href="css/checkout_layout.css" title="sytle" type="text/css" media="all"/>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0s">
+<head>
+    <title>P02 - Checkout</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/shopping_cart_layout.css" title="sytle" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/checkout_layout.css" title="sytle" type="text/css" media="all" />
 
-        <!-- add new google font -->
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0s">
 
-        <!-- add icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <!-- add new google font -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
-    <body>
-        <header> <!-- begin of Header nav -->
-            <div class="login">
-                <P><a class="intext_link" href="shopping_cart.html">Shopping Cart <i class="fa fa-cart-plus fa-lg"></i></a></P>
-                <P><a class="intext_link" href="#">Log in <i class="fa fa-user-circle fa-lg"></i></a></P>
-            </div>
-            
-             <a class = "bandTitle" href = "index.html"> <h1 class="product_detail_title">GAMUT RECORD</h1></a>
-            <h5 class="brand-subtitle">Find Awesome Things Here.</h5>
+    <!-- add icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-            <!-- begin of PC nav -->
-            <div class="main_nav">
-                <nav>
-                    <ul>
-                        <li class="menu"><a href="index.html">HOME</a></li>
-                        <li class="menu"><a href="product_listing.html">MUSIC COLLECTION</a></li>
-                        <li class="menu"><a href="product_detail.html">NEW RELEASE</a></li>
-                        <li class="menu"><a href="shopping_cart.html">SHOPPING CART</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- end of PC nav -->
+<body>
+    <header>
+        <!-- begin of Header nav -->
+        <div class="login">
+            <P><a class="intext_link" href="shopping_cart.html">Shopping Cart <i class="fa fa-cart-plus fa-lg"></i></a></P>
+            <P><a class="intext_link" href="#">Log in <i class="fa fa-user-circle fa-lg"></i></a></P>
+        </div>
 
-            <!-- begin of mobile nav -->
-            <div class="mobile_menu">
-                <div id="main">
-                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-                </div>
-        
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="index.html">HOME</a>
-                    <a href="product_listing.html">MUSIC COLLECTION</a>
-                    <a href="product_detail.html">NEW RELEASE</a>
-                    <a href="shopping_cart.html">SHOPPING CART</a>
-                </div>
+        <a class="bandTitle" href="index.html">
+            <h1 class="product_detail_title">GAMUT RECORD</h1>
+        </a>
+        <h5 class="brand-subtitle">Find Awesome Things Here.</h5>
+
+        <!-- begin of PC nav -->
+        <div class="main_nav">
+            <nav>
+                <ul>
+                    <li class="menu"><a href="index.html">HOME</a></li>
+                    <li class="menu"><a href="product_listing.html">MUSIC COLLECTION</a></li>
+                    <li class="menu"><a href="product_detail.html">NEW RELEASE</a></li>
+                    <li class="menu"><a href="shopping_cart.html">SHOPPING CART</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end of PC nav -->
+
+        <!-- begin of mobile nav -->
+        <div class="mobile_menu">
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
             </div>
 
-            <script src="js/main.js"></script>
-            <!-- end of mobile nav -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">HOME</a>
+                <a href="product_listing.html">MUSIC COLLECTION</a>
+                <a href="product_detail.html">NEW RELEASE</a>
+                <a href="shopping_cart.html">SHOPPING CART</a>
+            </div>
+        </div>
 
-        </header> <!-- end of Header nav -->
+        <script src="js/main.js"></script>
+        <!-- end of mobile nav -->
 
-        <section class="element">
-            <h3 class="element_heading">Checkout</h3>
+    </header>
+    <!-- end of Header nav -->
 
-            <!-- start of info section -->
-            <div class="fill_info">
-                <!-- start of Billing Address section -->
-                <div class="billing_address_info">
-                    <h2>1. Billing Address</h2>
+    <section class="element">
+        <h3 class="element_heading">Checkout</h3>
 
-                    <div class="payment_form">
-                        <form>
-                            <div class="payment">
+        <!-- start of info section -->
+        <div class="fill_info">
+            <!-- start of Billing Address section -->
+            <div class="billing_address_info">
+                <h2>1. Billing Address</h2>
+
+                <div class="payment_form">
+                    <form>
+                        <div class="payment">
                             <label>Name: </label>
                             <input class="text" type="text" placeholder="First name  Last name">
-                            </div>
-                            <div class="payment">
-                                <label>
+                        </div>
+                        <div class="payment">
+                            <label>
                                 Phone number: 
                                 </label>
-                                <input class="text" type="text" placeholder="(xxx)-xxx-xxxx">
-                            </div>
-                            <div class="payment">
+                            <input class="text" type="text" placeholder="(xxx)-xxx-xxxx">
+                        </div>
+                        <div class="payment">
                             <label>
                                 Address:
                             </label>
                             <input class="text" type="text">
-                            </div>
-                            <div class="payment">
-                                <label>Province: </label>
-                                <select name="expirydate" class="expirydate">
+                        </div>
+                        <div class="payment">
+                            <label>Province: </label>
+                            <select name="expirydate" class="expirydate">
                                     <option value="AB">AB</option>
                                     <option value="BC">BC</option>
                                     <option value="MB">MB</option>
@@ -104,33 +109,33 @@
                                     <option value="SK">SK</option>
                                     <option value="YT">YT</option>
                                 </select>
-                            </div>  
-                            <div class="payment">
+                        </div>
+                        <div class="payment">
                             <label>Country: </label>
                             <input type="text" placeholder="Canada">
-                            </div>
-                            <div class="payment">
-                            <label class = "font_setting"><input type="checkbox" name="remember"> Use the same address for Delivery</label>
-                            </div>
-                        </form>    
-                    </div>
+                        </div>
+                        <div class="payment">
+                            <label class="font_setting"><input type="checkbox" name="remember"> Use the same address for Delivery</label>
+                        </div>
+                    </form>
                 </div>
-                <!-- end of Billing Address section -->
-            
-                <!-- start of Payment Form section -->
-                <div class="payment_info">
-                    <h2>2. Payment Form</h2>
+            </div>
+            <!-- end of Billing Address section -->
 
-                    <div class="payment_form">
-                        <form>
-                            <div class="payment">
+            <!-- start of Payment Form section -->
+            <div class="payment_info">
+                <h2>2. Payment Form</h2>
+
+                <div class="payment_form">
+                    <form>
+                        <div class="payment">
                             <label>Card type:</label>
                             <div class="icon-container">
                                 <i class="fa fa-cc-visa" style="color:#96fa00;"></i>
                                 <i class="fa fa-cc-amex" style="color:#60b76d;"></i>
                                 <i class="fa fa-cc-mastercard" style="color:#ed442e;"></i>
                                 <i class="fa fa-cc-discover" style="color:orange;"></i>
-                              </div>
+                            </div>
                             <label><input type="radio" id="visa" name="cardtype" value="visa"> 
                                 Visa 
                             <label><input type="radio" id="mastercard" name="cardtype" value="amex"> 
@@ -142,139 +147,142 @@
                             <label><input type="radio" id="mastercard" name="cardtype" value="discover"> 
                                 Discover
                             </label>
-                            </div>
-                            <div class="payment">
+                        </div>
+                        <div class="payment">
                             <label>
                                 Name on the card: 
                             </label>
                             <input class="text" type="text" placeholder="First name  Last name">
-                            </div>
-                            <div class="payment">
+                        </div>
+                        <div class="payment">
                             <label>
                                 Card number: 
                             </label>
                             <input class="text" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
-                            </div>
-                            <div class="payment">
+                        </div>
+                        <div class="payment">
                             <label>Expiry date: </label>
                             <input class="text" type="text" placeholder="MM/YY">
-                            </div>
-                            <div class="payment">
+                        </div>
+                        <div class="payment">
                             <label>CVC/CVV: </label>
                             <input type="text" placeholder="XXX">
-                            </div>
-                            <div class="payment">
-                                <!-- <button type="submit" value="Submit">Submit</button> -->
-                            <label class = "font_setting">
+                        </div>
+                        <div class="payment">
+                            <!-- <button type="submit" value="Submit">Submit</button> -->
+                            <label class="font_setting">
                                 <input type="checkbox" name="remember"> Remember this card
                             </label>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
-                <!-- end of Payment Form section -->
             </div>
-            <!-- end of info section -->
+            <!-- end of Payment Form section -->
+        </div>
+        <!-- end of info section -->
 
-            <!-- start of order summary section -->
-            <div class="order_summary_section">
-                <!-- start of order summary check section -->
-                <div class="order_summary" id="order_summary">
-                    <h2>Order Summary</h2>
-                    <div class="order_summary_subtotal">
-                        <p>Subtotal</p>
-                        <p>$55.00</p>
-                    </div>
-                    <div class="order_summary_shipping">
-                        <p>Shipping</p>
-                        <p>$5.00</p>
-                    </div>
-                    <div class="order_summary_tax">
-                        <p>Tax</p>
-                        <p>tbd</p>
-                    </div>
-                    <div class="order_summary_total">
-                        <p>Total</p>
-                        <p>$60.00</p>
-                    </div>
-                    <a class="button-nav" href="#">Check out</a>
+        <!-- start of order summary section -->
+        <div class="order_summary_section">
+            <!-- start of order summary check section -->
+            <div class="order_summary" id="order_summary">
+                <h2>Order Summary</h2>
+                <div class="order_summary_subtotal">
+                    <p>Subtotal</p>
+                    <p>$55.00</p>
                 </div>
-                <!-- end of order summary check section -->
-
-                <!-- start of item check section -->
-                <div class="order_summary">
-                    <h2>Items In Order</h2>
-                    <div class="cart_item_record">
-                        <figure class="cart_img">
-                            <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                        </figure>
-                        <div class="cart_text">
-                            <div class="cart_text_name">
-                                <p>Viva La Vida Or Death And All His Friends - 2008</p>
-                            </div>
-                            <div class="cart_text_info">
-                                <div class="cart_text_qty">
-                                    <p>QTY: 1</p>
-                                </div>
-                                <div class="cart_text_price">
-                                    <p class="price">$35.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cart_item_record">
-                        <figure class="cart_img">
-                            <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                        </figure>
-                        <div class="cart_text">
-                            <div class="cart_text_name">
-                                <p>Viva La Vida Or Death And All His Friends - 2008</p>
-                            </div>
-                            <div class="cart_text_info">
-                                <div class="cart_text_qty">
-                                    <p>QTY: 1</p>
-                                </div>
-                                <div class="cart_text_price">
-                                    <p class="price">$35.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cart_item_record">
-                        <figure class="cart_img">
-                            <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                        </figure>
-                        <div class="cart_text">
-                            <div class="cart_text_name">
-                                <p>Viva La Vida Or Death And All His Friends - 2008</p>
-                            </div>
-                            <div class="cart_text_info">
-                                <div class="cart_text_qty">
-                                    <p>QTY: 1</p>
-                                </div>
-                                <div class="cart_text_price">
-                                    <p class="price">$35.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p><a class="intext_link" href="shopping_cart.html">Edit order</a></p>
+                <div class="order_summary_shipping">
+                    <p>Shipping</p>
+                    <p>$5.00</p>
                 </div>
-                <!-- end of item check section -->
+                <div class="order_summary_tax">
+                    <p>Tax</p>
+                    <p>tbd</p>
+                </div>
+                <div class="order_summary_total">
+                    <p>Total</p>
+                    <p>$60.00</p>
+                </div>
+                <a class="button-nav" href="#">Check out</a>
             </div>
-            <!-- end of order summary section -->            
+            <!-- end of order summary check section -->
 
-        </section>
+            <!-- start of item check section -->
+            <div class="order_summary">
+                <h2>Items In Order</h2>
+                <div class="cart_item_record">
+                    <figure class="cart_img">
+                        <img class="product_record" src="img/record.jpg" alt="item" />
+                        <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                    </figure>
+                    <div class="cart_text">
+                        <div class="cart_text_name">
+                            <p>Viva La Vida Or Death And All His Friends - 2008</p>
+                        </div>
+                        <div class="cart_text_info">
+                            <div class="cart_text_qty">
+                                <p>QTY: 1</p>
+                            </div>
+                            <div class="cart_text_price">
+                                <p class="price">$35.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_item_record">
+                    <figure class="cart_img">
+                        <img class="product_record" src="img/record.jpg" alt="item" />
+                        <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                    </figure>
+                    <div class="cart_text">
+                        <div class="cart_text_name">
+                            <p>Viva La Vida Or Death And All His Friends - 2008</p>
+                        </div>
+                        <div class="cart_text_info">
+                            <div class="cart_text_qty">
+                                <p>QTY: 1</p>
+                            </div>
+                            <div class="cart_text_price">
+                                <p class="price">$35.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_item_record">
+                    <figure class="cart_img">
+                        <img class="product_record" src="img/record.jpg" alt="item" />
+                        <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                    </figure>
+                    <div class="cart_text">
+                        <div class="cart_text_name">
+                            <p>Viva La Vida Or Death And All His Friends - 2008</p>
+                        </div>
+                        <div class="cart_text_info">
+                            <div class="cart_text_qty">
+                                <p>QTY: 1</p>
+                            </div>
+                            <div class="cart_text_price">
+                                <p class="price">$35.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p><a class="intext_link" href="shopping_cart.html">Edit order</a></p>
+            </div>
+            <!-- end of item check section -->
+        </div>
+        <!-- end of order summary section -->
 
-        <!-- start of footer -->
-        <footer>
-            <h4> @ Gamut Record.</h4>
-            <p> All COPYRIGHT RESERVED. </p>
-        </footer>
-        <!-- end of footer -->
-        
-    </body>
+    </section>
+
+    <!-- start of footer -->
+    <footer>
+        <h4> @ Gamut Record.</h4>
+        <p> All COPYRIGHT RESERVED.</p>
+        <a href="http://www.sfu.ca/~yza442/IAT339/P01/"> Style Guide</a>
+        <a href="citations.html">Citations</a>
+    </footer>
+    <!-- end of footer -->
+
+</body>
+
 </html>
