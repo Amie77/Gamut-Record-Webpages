@@ -1,210 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>P02 - Shopping Cart</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all"/>
-        <link rel="stylesheet" href="css/shopping_cart_layout.css" title="sytle" type="text/css" media="all"/>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0s">
+<head>
+    <title>P02 - Shopping Cart</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" title="sytle" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/shopping_cart_layout.css" title="sytle" type="text/css" media="all" />
 
-        <!-- add new google font -->
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0s">
 
-        <!-- add icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+    <!-- add new google font -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
-    <body>
-        <header> <!-- begin of Header nav -->
-            <div class="login">
-                <P><a class="intext_link" href="shopping_cart.html">Shopping Cart <i class="fa fa-cart-plus fa-lg"></i></a></P>
-                <P><a class="intext_link" href="#">Log in <i class="fa fa-user-circle fa-lg"></i></a></P>
-            </div>
-            
-             <a class = "bandTitle" href = "index.html"> <h1 class="product_detail_title">GAMUT RECORD</h1></a>
-            <h5 class="brand-subtitle">Find Awesome Things Here.</h5>
+    <!-- add icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-            <!-- begin of PC nav -->
-            <div class="main_nav">
-                <nav>
-                    <ul>
-                        <li class="menu"><a href="index.html">HOME</a></li>
-                        <li class="menu"><a href="product_listing.html">MUSIC COLLECTION</a></li>
-                        <li class="menu"><a href="product_detail.html">NEW RELEASE</a></li>
-                        <li class="menu"><a href="shopping_cart.html">SHOPPING CART</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- end of PC nav -->
+<body>
+    <header>
+        <!-- begin of Header nav -->
+        <div class="login">
+            <P><a class="intext_link" href="shopping_cart.html">Shopping Cart <i class="fa fa-cart-plus fa-lg"></i></a></P>
+            <P><a class="intext_link" href="#">Log in <i class="fa fa-user-circle fa-lg"></i></a></P>
+        </div>
 
-            <!-- begin of mobile nav -->
-            <div class="mobile_menu">
-                <div id="main">
-                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-                </div>
-        
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="index.html">HOME</a>
-                    <a href="product_listing.html">MUSIC COLLECTION</a>
-                    <a href="product_detail.html">NEW RELEASE</a>
-                    <a href="shopping_cart.html">SHOPPING CART</a>
-                </div>
+        <a class="bandTitle" href="index.html">
+            <h1 class="product_detail_title">GAMUT RECORD</h1>
+        </a>
+        <h5 class="brand-subtitle">Find Awesome Things Here.</h5>
+
+        <!-- begin of PC nav -->
+        <div class="main_nav">
+            <nav>
+                <ul>
+                    <li class="menu"><a href="index.html">HOME</a></li>
+                    <li class="menu"><a href="product_listing.html">MUSIC COLLECTION</a></li>
+                    <li class="menu"><a href="product_detail.html">NEW RELEASE</a></li>
+                    <li class="menu"><a href="shopping_cart.html">SHOPPING CART</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- end of PC nav -->
+
+        <!-- begin of mobile nav -->
+        <div class="mobile_menu">
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
             </div>
 
-            <script src="js/main.js"></script>
-            <!-- end of mobile nav -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">HOME</a>
+                <a href="product_listing.html">MUSIC COLLECTION</a>
+                <a href="product_detail.html">NEW RELEASE</a>
+                <a href="shopping_cart.html">SHOPPING CART</a>
+            </div>
+        </div>
 
-        </header> <!-- end of Header nav -->
+        <script src="js/main.js"></script>
+        <!-- end of mobile nav -->
 
-        <!-- start of Checkout Cart section -->
-        <section class="element">
-            <h3 class="element_heading">Shopping Cart</h3>
+    </header>
+    <!-- end of Header nav -->
 
-            <div class="checkout_cart">
-                <div class="cart">
-            
-                    <div class="cart_item">
-                        <div class="cart_list">
-                            <p class="cart_list_item">Item</p>
-                            <p class="cart_list_price">Price</p>
-                            <p class="cart_list_quantity">Quantity</p>
-                            <p class="cart_list_total">Total</p>
-                        </div>
-                        <div class="cart_item_record">
-                            <figure class="cart_img">
-                                <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                            </figure>
-                            <div class="cart_text">
-                                <div class="cart_info">
-                                    <h3>Album name</h3>
-                                    <p class="price">$20.00</p>
-                                    <form class="cart_info_q">
-                                        <select name="Quantity">
+    <!-- start of Checkout Cart section -->
+    <section class="element">
+        <h3 class="element_heading">Shopping Cart</h3>
+
+        <div class="checkout_cart">
+            <div class="cart">
+
+                <div class="cart_item">
+                    <div class="cart_list">
+                        <p class="cart_list_item">Item</p>
+                        <p class="cart_list_price">Price</p>
+                        <p class="cart_list_quantity">Quantity</p>
+                        <p class="cart_list_total">Total</p>
+                    </div>
+                    <div class="cart_item_record">
+                        <figure class="cart_img">
+                            <img class="product_record" src="img/record.jpg" alt="item" />
+                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                        </figure>
+                        <div class="cart_text">
+                            <div class="cart_info">
+                                <h3>Album name</h3>
+                                <p class="price">$20.00</p>
+                                <form class="cart_info_q">
+                                    <select name="Quantity">
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
                                         <option value="4">4</option>
                                         <option value="5">5</option>
                                         </select>
-                                    </form>
-                                    <p class="total">$20.00</p>
-                                </div>
-                                <div class="cart_control">
-                                    <p><a class="intext_link" href="">Remove</a></p>
-                                </div>
+                                </form>
+                                <p class="total">$20.00</p>
                             </div>
-                        </div>
-                        <div class="cart_item_record">
-                            <figure class="cart_img">
-                                <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                            </figure>
-                            <div class="cart_text">
-                                <div class="cart_info">
-                                    <h3>Album name</h3>
-                                    <p class="price">$35.00</p>
-                                    <form class="cart_info_q">
-                                        <select name="Quantity">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        </select>
-                                    </form>
-                                    <p class="total">$35.00</p>
-                                </div>
-                                <div class="cart_control">
-                                    <p><a class="intext_link" href="">Remove</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cart_item_record">
-                            <figure class="cart_img">
-                                <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                            </figure>
-                            <div class="cart_text">
-                                <div class="cart_info">
-                                    <h3>Album name</h3>
-                                    <p class="price">$35.00</p>
-                                    <form class="cart_info_q">
-                                        <select name="Quantity">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        </select>
-                                    </form>
-                                    <p class="total">$35.00</p>
-                                </div>
-                                <div class="cart_control">
-                                    <p><a class="intext_link" href="">Remove</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cart_item_record">
-                            <figure class="cart_img">
-                                <img class="product_record" src = "img/record.jpg" alt = "item"/>
-                                <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
-                            </figure>
-                            <div class="cart_text">
-                                <div class="cart_info">
-                                    <h3>Album name</h3>
-                                    <p class="price">$35.00</p>
-                                    <form class="cart_info_q">
-                                        <select name="Quantity">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        </select>
-                                    </form>
-                                    <p class="total">$35.00</p>
-                                </div>
-                                <div class="cart_control">
-                                    <p><a class="intext_link" href="">Remove</a></p>
-                                </div>
+                            <div class="cart_control">
+                                <p><a class="intext_link" href="">Remove</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="order_summary" id="order_summary">
-                        <h2>Order Summary</h2>
-                        <div class="order_summary_subtotal">
-                            <p>Subtotal</p>
-                            <p>$55.00</p>
+                    <div class="cart_item_record">
+                        <figure class="cart_img">
+                            <img class="product_record" src="img/record.jpg" alt="item" />
+                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                        </figure>
+                        <div class="cart_text">
+                            <div class="cart_info">
+                                <h3>Album name</h3>
+                                <p class="price">$35.00</p>
+                                <form class="cart_info_q">
+                                    <select name="Quantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                </form>
+                                <p class="total">$35.00</p>
+                            </div>
+                            <div class="cart_control">
+                                <p><a class="intext_link" href="">Remove</a></p>
+                            </div>
                         </div>
-                        <div class="order_summary_shipping">
-                            <p>Shipping</p>
-                            <p>$5.00</p>
+                    </div>
+                    <div class="cart_item_record">
+                        <figure class="cart_img">
+                            <img class="product_record" src="img/record.jpg" alt="item" />
+                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                        </figure>
+                        <div class="cart_text">
+                            <div class="cart_info">
+                                <h3>Album name</h3>
+                                <p class="price">$35.00</p>
+                                <form class="cart_info_q">
+                                    <select name="Quantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                </form>
+                                <p class="total">$35.00</p>
+                            </div>
+                            <div class="cart_control">
+                                <p><a class="intext_link" href="">Remove</a></p>
+                            </div>
                         </div>
-                        <div class="order_summary_tax">
-                            <p>Tax</p>
-                            <p>tbd</p>
+                    </div>
+                    <div class="cart_item_record">
+                        <figure class="cart_img">
+                            <img class="product_record" src="img/record.jpg" alt="item" />
+                            <!-- Trovato, G. (2020, March 19). Retrieved September 23, 2020, from https://unsplash.com/photos/PdtApuzR_IQ -->
+                        </figure>
+                        <div class="cart_text">
+                            <div class="cart_info">
+                                <h3>Album name</h3>
+                                <p class="price">$35.00</p>
+                                <form class="cart_info_q">
+                                    <select name="Quantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                </form>
+                                <p class="total">$35.00</p>
+                            </div>
+                            <div class="cart_control">
+                                <p><a class="intext_link" href="">Remove</a></p>
+                            </div>
                         </div>
-                        <div class="order_summary_total">
-                            <p>Total</p>
-                            <p>$60.00</p>
-                        </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
                     </div>
                 </div>
+                <div class="order_summary" id="order_summary">
+                    <h2>Order Summary</h2>
+                    <div class="order_summary_subtotal">
+                        <p>Subtotal</p>
+                        <p>$55.00</p>
+                    </div>
+                    <div class="order_summary_shipping">
+                        <p>Shipping</p>
+                        <p>$5.00</p>
+                    </div>
+                    <div class="order_summary_tax">
+                        <p>Tax</p>
+                        <p>tbd</p>
+                    </div>
+                    <div class="order_summary_total">
+                        <p>Total</p>
+                        <p>$60.00</p>
+                    </div>
+                    <a class="button-nav" href="checkout.html">Check out</a>
+                </div>
             </div>
-        </section>
-        <!-- end of Checkout Cart section -->
+        </div>
+    </section>
+    <!-- end of Checkout Cart section -->
 
-        <!-- start of footer -->
-        <footer>
-            <h4> @ Gamut Record.</h4>
-            <p> All COPYRIGHT RESERVED. </p>
-        </footer>
-        <!-- end of footer -->
+    <!-- start of footer -->
+    <footer>
+        <h4> @ Gamut Record.</h4>
+        <p> All COPYRIGHT RESERVED.</p>
+        <a href="http://www.sfu.ca/~yza442/IAT339/P01/"> Style Guide</a>
+        <a href="citations.html">Citations</a>
+    </footer>
+    <!-- end of footer -->
 
-    </body>
+</body>
+
 </html>
