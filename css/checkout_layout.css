@@ -108,5 +108,9 @@ footer{
         width: 100%;
         min-width: 0em;
     }
+
+    input[type=text]{ 
+        width: 100%;
+    }
     
 }
