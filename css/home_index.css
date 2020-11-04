@@ -81,8 +81,21 @@ p.icon_para{
     font-weight:600;
 }
 
+p.icon_para_c{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+
 .icon_para_regular{
     text-align: left;
+    font-family: 'Times New Roman';
+    font-size:1.1rem;
+    font-weight:100;
+}
+
+.icon_para_regular_c{
+    text-align: center;
     font-family: 'Times New Roman';
     font-size:1.1rem;
     font-weight:100;
@@ -365,6 +378,30 @@ section#contact {
 
 #contact_list {
     padding-bottom: 5%;
+}
+
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 5%;
+
+    /* border: 1px solid wheat; */
+}
+
+
+.con-col {
+    /* border: 1px solid yellow; */
+
+    width: 22%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+
+    min-width: 15em;
 }
 
 
