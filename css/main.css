@@ -114,10 +114,16 @@
     text-decoration: none;
  }
 
-  a.footerLink:hover {
-    
+ a.footerLink:hover {
+
      color: #96fa00;
+     font-style: italic;
  }
+ p.footerFont{
+    font-family:"Times New Roman";
+    font-weight:900;
+ }
+
 
 
  /* Styling for the intext link */
