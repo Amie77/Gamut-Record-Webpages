@@ -393,7 +393,8 @@ div.product_option>div.product_option{
     justify-content: center;
     align-items: center;
 }
-.product_choice:hover{
+.product_choice:hover,
+.product_choice:focus{
     border: 1px solid #ffffff;
 }
 .product_choice>a{

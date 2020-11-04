@@ -208,7 +208,19 @@ div.button-align{
 
 label.product_info{
 	display:flex;
+    width:15%;
+}
+
+@media screen and (max-width: 400px){
+  label.product_info{
+    width:20%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  label.product_info{
     width:30%;
+  }
 }
 
 img.detail_resize{
