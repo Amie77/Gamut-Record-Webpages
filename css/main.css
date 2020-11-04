@@ -108,6 +108,18 @@
  .brand-subtitle {
      text-align: center;
  }
+ /* Styling for the footer link */
+
+ a.footerLink{
+    text-decoration: none;
+ }
+
+  a.footerLink:hover {
+    
+     color: #96fa00;
+ }
+
+
  /* Styling for the intext link */
  
  a.intext_link {
