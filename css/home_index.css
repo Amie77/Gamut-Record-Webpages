@@ -6,11 +6,11 @@ h2.home_title {
     margin-top: 20%;
 }
 
-h3.home_title {
+h2.home_title {
     margin-top: 3%;
 }
 
-h3.element_heading{
+h2.element_heading{
     color:#96fa00;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -18,7 +18,7 @@ h3.element_heading{
     margin:0%;
 }
 
-h3.contact_heading{
+h2.contact_heading{
     color:#96fa00;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
@@ -306,7 +306,7 @@ section#news {
     padding: 10px;
 }
 
-h4.subheading {
+h3.subheading {
     color: #ed442e;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -316,7 +316,7 @@ h4.subheading {
     margin: 0%;
 }
 
-h4.subheading_normal {
+h3.subheading_normal {
     color: #ed442e;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
