@@ -185,14 +185,16 @@
  
  label {
      width: 100%;
-     padding-bottom: 0.5%;
+     padding-bottom: 0.5em;
  }
  
  input[type="text"] {
      background-color: #282828;
      border: 1px solid #ffffff;
-     padding: 0.5%;
+     padding: 1%;
      border-radius: 5px;
+
+     color: white;
  }
  
  input[type=text]:focus {

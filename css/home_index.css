@@ -311,7 +311,7 @@ div.single_product {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 13em;
+    min-width: 15em;
     padding: 2% 2%;
     flex-grow: 1;
 }
