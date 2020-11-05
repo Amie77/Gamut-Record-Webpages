@@ -190,19 +190,22 @@ div.main_nav {
     }
 }
 
+@media screen and (min-width: 900px) {
+    div.main_nav {
+        margin-top: 38vh;
+    }
+}
+
 @media screen and (min-width: 750px) and (max-width: 3072px) {
     .herohead h1 {
         font-size: 9vh;
         transform: translate(0%, 45%);
-        margin-top: 4vh;
+        margin-top: 2vh;
     }
     .herohead p {
         font-size: 1.5rem;
         transform: translate(1%, 0%);
         margin-top: 7vh;
-    }
-    div.main_nav {
-        /* margin-top: 60vh; */
     }
 }
 
