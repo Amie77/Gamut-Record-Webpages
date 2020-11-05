@@ -38,7 +38,7 @@ h2.contact_heading{
     /* Image created by myself */
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/Records.jpg");
-    height: 60vh;
+    /* height: 60vh; */
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ div.main_nav {
         margin-top: 7vh;
     }
     div.main_nav {
-        margin-top: 60vh;
+        /* margin-top: 60vh; */
     }
 }
 
