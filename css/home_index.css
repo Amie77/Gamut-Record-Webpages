@@ -38,7 +38,7 @@ h2.contact_heading {
     /* Image created by myself */
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/Records.jpg");
-    /* height: 60vh; */
+    height: 55vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,11 +135,13 @@ p.icon_para_c {
 div.main_nav {
     position: absolute;
     padding: 0% 2%;
-    margin: 35vh 0% 3% 0%;
+    /* margin: 10% 0% 3% 0%; */
+    margin: 0%;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     background-color: rgb(50, 50, 50);
+    bottom: 0%;
 }
 
 @media screen and (min-width: 1440px) {
