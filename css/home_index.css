@@ -316,7 +316,7 @@ div.pList {
     padding: 0%;
 }
 
-.staff_more{
+.view_more{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
