@@ -70,7 +70,7 @@ footer{
 }
 
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:380px) {
     .cart_list{
         display:none;
     }
