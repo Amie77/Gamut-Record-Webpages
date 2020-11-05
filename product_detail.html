@@ -127,11 +127,15 @@
                     </div>
 
                     <div class="button-padding">
-                        <a class="button-nav" href="shopping_cart.html">ADD TO CART</a>
+                        <a class="button-nav checkBtn-1" href="javascript:void" onclick="visibleCheckOut(1,1)">ADD TO CART</a>
+                        <a class="button-nav checkBtn-2" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-3" href="shopping_cart.html">VIEW CART</a>
+                        <!-- <a class="button-nav" href="shopping_cart.html">ADD TO CART</a> -->
                     </div>
                     <div class="padding1rem"></div>
                     <div>
-                        <a class="button-nav" href="checkout.html">CHECK OUT</a>
+                        <a class="button-nav checkout1" href="checkout.html">CHECK OUT</a>
+                        <!-- <a class="button-nav" href="checkout.html">CHECK OUT</a> -->
                     </div>
 
                 </div>
@@ -308,6 +312,20 @@
 
 
     <!-- end of Product Detail section -->
+    <script>
+        function visibleCheckOut(n,m) {
+            //alert(document.querySelector(".checkout" + n).style);
+            document.querySelector(".checkout" + n).style.visibility = "visible";
+    
+            document.querySelector(".checkBtn-"+m).style.display = "none";
+            document.querySelector(".checkBtn-"+(m+1)).style.display = "inline-block";
+            setTimeout(function(){ 
+                document.querySelector(".checkBtn-"+m).style.display = "none";
+                document.querySelector(".checkBtn-"+(m+1)).style.display = "none";
+                document.querySelector(".checkBtn-"+(m+2)).style.display = "inline-block";
+            }, 1000);
+        }
+    </script>
 
 </body>
 

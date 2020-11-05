@@ -150,6 +150,8 @@ div.button-padding{
     transition-duration: 0.5s;
     font-weight:800;
     border-radius: 4px;
+
+    text-align: center;
   }
 
 .button-nav:hover {
@@ -158,6 +160,11 @@ div.button-padding{
     font-weight:800;
     border-radius: 4px;
 
+}
+
+.checkBtn-3,.checkBtn-2,.checkBtn-1,.checkout1{
+  display: block;
+  width: 100%;
 }
 
 
@@ -368,7 +375,9 @@ form{
 
 
 /* -----------------------star rating code end here.-------------------------*/
-
+.checkBtn-2,.checkBtn-3{
+  display:none;
+}
 
 
 footer{
