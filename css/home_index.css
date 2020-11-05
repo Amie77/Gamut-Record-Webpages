@@ -297,6 +297,24 @@ section.intro-element {
     }
 } */
 
+/* staff's pick */
+div.single_product {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    min-width:13em;
+
+    padding: 2% 2%;
+    flex-grow: 1;
+}
+
+div.pList {
+    justify-content: space-between;
+    padding: 0%;
+}
 
 /* The latest news section */
 
