@@ -826,6 +826,10 @@
          transition: margin-left .5s;
          padding: 16px;
      }
+     #main>span{
+        font-size:30px;
+        cursor:pointer;
+     }
  }
  
  @media only screen and (max-width:455px) {
