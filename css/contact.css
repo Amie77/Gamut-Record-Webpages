@@ -115,7 +115,8 @@ h3.subheading_normal {
 }
 
 
-section#intro {
+section#intro1,
+section#intro2 {
     width: 86%;
     margin: auto;
     padding: 10px;

@@ -340,7 +340,8 @@ div.pList {
 
 /* The latest news section */
 
-section#news {
+section#news,
+section#pick {
     width: 86%;
     margin: auto;
     padding: 10px;
