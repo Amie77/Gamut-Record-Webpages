@@ -273,6 +273,12 @@ section.intro-element {
     width: 100%;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .first-adj {
+        margin-top: 40px;
+    }
+}
+
 
 /* .topic {
     color: #96fa00;
