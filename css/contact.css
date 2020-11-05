@@ -50,8 +50,19 @@ p.icon_para{
 
 }
 
+
+
 .contact-title{
     text-align: center;
+}
+
+h3.subheading_normal {
+    color: #ed442e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-top: 2%;
+    padding-left: 0%;
+    margin: 0%;
 }
 
 
