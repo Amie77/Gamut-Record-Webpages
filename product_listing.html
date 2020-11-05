@@ -59,10 +59,9 @@
                 <a href="contact.html">CONTACT</a>
             </div>
         </div>
-
-        <script src="js/main.js"></script>
         <!-- end of mobile nav -->
 
+        <script src="js/main.js"></script>
     </header>
     <!-- end of Header nav -->
 
@@ -103,9 +102,11 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav" href="">Add to cart</a>
+                        <a class="button-nav checkBtn-1" href="javascript:void" onclick="visibleCheckOut(1,1)">Add to cart</a>
+                        <a class="button-nav checkBtn-2" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-3" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
+                        <a class="button-nav checkout1" href="checkout.html">Check out</a>
                         <p class="product_info_stock">In stock</p>
                     </div>
 
@@ -127,9 +128,11 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav" href="">Add to cart</a>
+                        <a class="button-nav checkBtn-4" href="javascript:void"  onclick="visibleCheckOut(2,4)">Add to cart</a>
+                        <a class="button-nav checkBtn-5" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-6" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
+                        <a class="button-nav checkout2" href="checkout.html">Check out</a>
                         <p class="product_info_out">Out of stock</p>
                     </div>
 
@@ -150,9 +153,11 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav" href="">Add to cart</a>
+                        <a class="button-nav checkBtn-7" href="javascript:void"  onclick="visibleCheckOut(3,7)">Add to cart</a>
+                        <a class="button-nav checkBtn-8" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-9" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
+                        <a class="button-nav checkout3" href="checkout.html">Check out</a>
                         <p class="product_info_stock">In stock</p>
                     </div>
 
@@ -173,9 +178,11 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav" href="">Add to cart</a>
+                        <a class="button-nav checkBtn-10" href="javascript:void"  onclick="visibleCheckOut(4,10)">Add to cart</a>
+                        <a class="button-nav checkBtn-11" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-12" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
+                        <a class="button-nav checkout4" href="checkout.html">Check out</a>
                         <p class="product_info_stock">In stock</p>
                     </div>
 
@@ -196,9 +203,11 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav" href="">Add to cart</a>
+                        <a class="button-nav checkBtn-13" href="javascript:void"  onclick="visibleCheckOut(5,13)">Add to cart</a>
+                        <a class="button-nav checkBtn-14" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-15" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
+                        <a class="button-nav checkout5" href="checkout.html">Check out</a>
                         <p class="product_info_out">Out of stock</p>
                     </div>
 
@@ -219,9 +228,11 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav" href="">Add to cart</a>
+                        <a class="button-nav checkBtn-16" href="javascript:void"  onclick="visibleCheckOut(6,16)">Add to cart</a>
+                        <a class="button-nav checkBtn-17" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-18" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
-                        <a class="button-nav" href="checkout.html">Check out</a>
+                        <a class="button-nav checkout6" href="checkout.html">Check out</a>
                         <p class="product_info_stock">In stock</p>
                     </div>
 
@@ -241,6 +252,20 @@
     </footer>
     <!-- end of footer -->
 
+    <script>
+        function visibleCheckOut(n,m) {
+            //alert(document.querySelector(".checkout" + n).style);
+            document.querySelector(".checkout" + n).style.visibility = "visible";
+    
+            document.querySelector(".checkBtn-"+m).style.display = "none";
+            document.querySelector(".checkBtn-"+(m+1)).style.display = "inline-block";
+            setTimeout(function(){ 
+                document.querySelector(".checkBtn-"+m).style.display = "none";
+                document.querySelector(".checkBtn-"+(m+1)).style.display = "none";
+                document.querySelector(".checkBtn-"+(m+2)).style.display = "inline-block";
+            }, 1000);
+        }
+    </script>
 </body>
 
 </html>
