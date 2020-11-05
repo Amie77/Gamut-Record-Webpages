@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-h3.element_heading{
+h2.section_heading{
     padding-bottom: 1em;
     border-bottom: 2px solid #c4c4c4;
     width:100%;
@@ -27,7 +27,7 @@ section.main_section{
     /* border: 1px solid yellow; */
     padding-top: 2%;
 }
-h4.element_heading{
+h3.element_heading{
     width: 80%;
     color: #ed442e;
     /* border: 1px solid white; */

@@ -27,7 +27,7 @@
  h2.section_heading {
     color: #96fa00;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     /* padding-left: 2%; */
     margin: 0%;
  }
@@ -52,7 +52,7 @@
  }
  
  section.main_section {
-     margin: 10% 2% 0% 2%;
+     margin: 5% 2% 0% 2%;
  }
  
  section.element {
@@ -64,7 +64,7 @@
  h3.element_heading {
     color: #ed442e;
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
  }
  
  div.element_content {

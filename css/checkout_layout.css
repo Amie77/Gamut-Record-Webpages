@@ -51,7 +51,8 @@ input[type=text]{
 }
 
 .billing_address_info>h2, 
-.payment_info>h2{
+.payment_info>h2,
+h3.element_heading{
     width: 100%;
     padding-bottom: 2%;
     margin-top: 3%;

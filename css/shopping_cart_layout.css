@@ -3,7 +3,13 @@
     font-size: 300%;
 }
 
-h3.element_heading{
+section.element{
+    padding: 2% 0% 4% 2%;
+    border-bottom: 0px solid #60b76d;
+    margin: 2% 0% 0% 0%;
+}
+
+h2.section_heading{
     padding-bottom: 1em;
     border-bottom: 2px solid #c4c4c4;
     width:100%;
@@ -12,12 +18,6 @@ h3.element_heading{
 
 .brand-subtitle{
     text-align: center;
-}
-
-section.element{
-    padding: 2% 0% 4% 2%;
-    border-bottom: 0px solid #60b76d;
-    margin: 2% 0% 0% 0%;
 }
 
 div.cart{
