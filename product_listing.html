@@ -103,7 +103,7 @@
 
                     <div class="listing_add">
                         <a class="button-nav checkBtn-1" href="javascript:void" onclick="visibleCheckOut(1,1)">Add to cart</a>
-                        <a class="button-nav checkBtn-2" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-2" href="javascript:void"><i class="fa fa-spinner fa-spin"></i></a>
                         <a class="button-nav checkBtn-3" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
                         <a class="button-nav checkout1" href="checkout.html">Check out</a>
@@ -128,8 +128,8 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav checkBtn-4" href="javascript:void"  onclick="visibleCheckOut(2,4)">Add to cart</a>
-                        <a class="button-nav checkBtn-5" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-4" href="javascript:void" onclick="visibleCheckOut(2,4)">Add to cart</a>
+                        <a class="button-nav checkBtn-5" href="javascript:void"><i class="fa fa-spinner fa-spin"></i></a>
                         <a class="button-nav checkBtn-6" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
                         <a class="button-nav checkout2" href="checkout.html">Check out</a>
@@ -153,8 +153,8 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav checkBtn-7" href="javascript:void"  onclick="visibleCheckOut(3,7)">Add to cart</a>
-                        <a class="button-nav checkBtn-8" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-7" href="javascript:void" onclick="visibleCheckOut(3,7)">Add to cart</a>
+                        <a class="button-nav checkBtn-8" href="javascript:void"><i class="fa fa-spinner fa-spin"></i></a>
                         <a class="button-nav checkBtn-9" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
                         <a class="button-nav checkout3" href="checkout.html">Check out</a>
@@ -178,8 +178,8 @@
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav checkBtn-10" href="javascript:void"  onclick="visibleCheckOut(4,10)">Add to cart</a>
-                        <a class="button-nav checkBtn-11" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-10" href="javascript:void" onclick="visibleCheckOut(4,10)">Add to cart</a>
+                        <a class="button-nav checkBtn-11" href="javascript:void"><i class="fa fa-spinner fa-spin"></i></a>
                         <a class="button-nav checkBtn-12" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
                         <a class="button-nav checkout4" href="checkout.html">Check out</a>
@@ -198,13 +198,13 @@
                         </figure>
 
                         <h2 class="list_heading"><a class="intext_link" href="product_detail02.html">Made In Christmas - 2018</a></h2>
-                        <p class="product_info">JUNNABI</p>
+                        <p class="product_info">JANNABI</p>
                         <h3 class="product_price">$ 27.99</h3>
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav checkBtn-13" href="javascript:void"  onclick="visibleCheckOut(5,13)">Add to cart</a>
-                        <a class="button-nav checkBtn-14" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-13" href="javascript:void" onclick="visibleCheckOut(5,13)">Add to cart</a>
+                        <a class="button-nav checkBtn-14" href="javascript:void"><i class="fa fa-spinner fa-spin"></i></a>
                         <a class="button-nav checkBtn-15" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
                         <a class="button-nav checkout5" href="checkout.html">Check out</a>
@@ -223,13 +223,13 @@
                         </figure>
 
                         <h2 class="list_heading"><a class="intext_link" href="product_detail.html">Legend - 2010</a></h2>
-                        <p class="product_info">JUNNABI</p>
+                        <p class="product_info">JANNABI</p>
                         <h3 class="product_price">$ 36.00</h3>
                     </div>
 
                     <div class="listing_add">
-                        <a class="button-nav checkBtn-16" href="javascript:void"  onclick="visibleCheckOut(6,16)">Add to cart</a>
-                        <a class="button-nav checkBtn-17" href="javascript:void" ><i class="fa fa-spinner fa-spin"></i></a>
+                        <a class="button-nav checkBtn-16" href="javascript:void" onclick="visibleCheckOut(6,16)">Add to cart</a>
+                        <a class="button-nav checkBtn-17" href="javascript:void"><i class="fa fa-spinner fa-spin"></i></a>
                         <a class="button-nav checkBtn-18" href="shopping_cart.html">View cart</a>
                         <div class="button_padding"> </div>
                         <a class="button-nav checkout6" href="checkout.html">Check out</a>
@@ -248,21 +248,22 @@
     <footer>
         <h4> @ Gamut Record.</h4>
         <p> All COPYRIGHT RESERVED.</p>
-         <a class="footerLink" href="http://www.sfu.ca/~yza442/IAT339/P01/"><p class = "footerFont">Style Guide</a><span> &#183;</span> <a class="footerLink" href="citations.html">Citations</a></p>
+        <a class="footerLink" href="http://www.sfu.ca/~yza442/IAT339/P01/">
+            <p class="footerFont">Style Guide</a><span> &#183;</span> <a class="footerLink" href="citations.html">Citations</a></p>
     </footer>
     <!-- end of footer -->
 
     <script>
-        function visibleCheckOut(n,m) {
+        function visibleCheckOut(n, m) {
             //alert(document.querySelector(".checkout" + n).style);
             document.querySelector(".checkout" + n).style.visibility = "visible";
-    
-            document.querySelector(".checkBtn-"+m).style.display = "none";
-            document.querySelector(".checkBtn-"+(m+1)).style.display = "inline-block";
-            setTimeout(function(){ 
-                document.querySelector(".checkBtn-"+m).style.display = "none";
-                document.querySelector(".checkBtn-"+(m+1)).style.display = "none";
-                document.querySelector(".checkBtn-"+(m+2)).style.display = "inline-block";
+
+            document.querySelector(".checkBtn-" + m).style.display = "none";
+            document.querySelector(".checkBtn-" + (m + 1)).style.display = "inline-block";
+            setTimeout(function() {
+                document.querySelector(".checkBtn-" + m).style.display = "none";
+                document.querySelector(".checkBtn-" + (m + 1)).style.display = "none";
+                document.querySelector(".checkBtn-" + (m + 2)).style.display = "inline-block";
             }, 1000);
         }
     </script>
