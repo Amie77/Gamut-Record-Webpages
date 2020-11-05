@@ -316,6 +316,22 @@ div.pList {
     padding: 0%;
 }
 
+.staff_more{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.element_heading>a{
+    color: #ed442e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.element_heading>a:hover{
+    font-style: italic;
+}
+
 /* The latest news section */
 
 section#news {
